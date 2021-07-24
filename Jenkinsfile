@@ -4,6 +4,7 @@ pipeline {
     stage('checkout') {
       steps {
         sh '''#!/bin/bash
+cd /opt/
 gitclone https://github.com/VINEETHAREDDY007/spring-framework-petclinic.git'''
       }
     }
